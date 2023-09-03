@@ -27,7 +27,7 @@ documentation:
   language:     "Wokwi"
   description:  "Inspired by the game "Genius”, the circuit operates with a start button where one of the 4 output LEDs will light up. This bit will then pass through the comparator, so the person will generate a command and see if they match a specific sequence. If you make a mistake, the red led will turn on, if you get it right, the green led will turn on."    
 # Longer description of how the project works. You can use standard markdown format.
-  how_it_works: |
+  how_it_works: |The circuit features a switch that acts as a general on/off switch. As soon as the user presses the power button, the circuit will randomly select one of the four output LEDs and illuminate it. At this point, the user will need to press the button corresponding to the illuminated LED. The circuit will then compare the user's choice with the color of another LED located at the output of the comparator. If the choice is correct, the indicator LED will turn green; otherwise, it will turn red.
       Explain how your project works
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
